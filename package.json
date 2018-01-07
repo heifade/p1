@@ -1,0 +1,30 @@
+{
+  "name": "p1",
+  "version": "1.0.0-beta1",
+  "description": "p1",
+  "main": "./es/index.js",
+  "module": "./es/index.js",
+  "typings": "./es/index",
+  "files": [
+    "es"
+  ],
+  "devDependencies": {
+    "typescript": "^2.6.1",
+    "@types/chai": "^4.0.5",
+    "chai": "^4.1.2",
+    "@types/mocha": "^2.2.44",
+    "mocha": "^4.0.1"
+  },
+  "dependencies": {
+    "@types/node": "^8.5.2"
+  },
+  "scripts": {
+    "build": "pc build",
+    "start": "pc build && node ./es/index.js"
+  },
+  "keywords": [
+    "p1"
+  ],
+  "author": "",
+  "license": "MIT"
+}
