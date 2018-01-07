@@ -1,6 +1,6 @@
 {
   "name": "p111",
-  "version": "1.0.0-beta8",
+  "version": "1.0.0-beta9",
   "description": "p1",
   "main": "./es/index.js",
   "module": "./es/index.js",
@@ -9,11 +9,11 @@
     "es"
   ],
   "devDependencies": {
-    "typescript": "^2.6.1",
     "@types/chai": "^4.0.5",
-    "chai": "^4.1.2",
     "@types/mocha": "^2.2.44",
-    "mocha": "^4.0.1"
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "typescript": "^2.6.1"
   },
   "dependencies": {
     "@types/node": "^8.5.2"
@@ -28,6 +28,6 @@
   "author": "",
   "license": "MIT",
   "bin": {
-    "p1": "./es/bin/p1"
+    "p111": "./es/bin/p111"
   }
 }
