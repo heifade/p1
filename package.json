@@ -1,6 +1,6 @@
 {
   "name": "p1",
-  "version": "1.0.0-beta5",
+  "version": "1.0.0-beta6",
   "description": "p1",
   "main": "./es/index.js",
   "module": "./es/index.js",
