@@ -1,6 +1,6 @@
 {
   "name": "p1",
-  "version": "1.0.0-beta3",
+  "version": "1.0.0-beta4",
   "description": "p1",
   "main": "./es/index.js",
   "module": "./es/index.js",
@@ -26,5 +26,8 @@
     "p1"
   ],
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "bin": {
+    "p1": "./es/bin/p1"
+  }
 }
